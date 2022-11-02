@@ -2,10 +2,10 @@ import React from 'react'
 import '../App.css';
 import { Link } from 'react-router-dom'
 
-function Navbar() {
+function Navbar2() {
   return (
     
-    <div className='bg-transparent fixed backdrop-blur-lg w-full'>
+    <div className='bg-white w-full'>
     {/* NAVBAR */}
     <nav class="relative container mx-auto p-5">
        {/* FLEX CONTAINER */}
@@ -33,4 +33,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar2
