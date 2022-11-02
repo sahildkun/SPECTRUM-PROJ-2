@@ -1,6 +1,6 @@
 @font-face {
     font-family: isl;
-    src: url("./components/fonts/Pacifico-Regular.ttf")
+    src: url("./components/fonts/Merriweather-BlackItalic.ttf")
 }
 @font-face {
     font-family: tol;
@@ -9,7 +9,11 @@
 
 #isl {
     font-family: isl;
+    
 }
 #tol {
     font-family: tol;
+}
+.bg-bgpic-img{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url('https://www.wearegoldcoast.com.au/wp-content/uploads/2021/05/Dust-Temple22-1.jpg');
 }

@@ -3,7 +3,7 @@ import '../App.css';
 
 function Navbar() {
   return (
-    <div class=" bg-bgpic-img bg-no-repeat bg-center bg-cover bg-fixed  h-[650px] ">
+    <div class="bg-bgpic-img bg-no-repeat bg-center bg-cover bg-fixed  h-[650px] ">
     <div class="flex flex-auto  space-x-10 pt-[30px] pl-[15px]">
         <div class ="text-2xl  text-[#ffb7c5] cursor-pointer  hover:underline duration-1000" id="tol">HOME</div>
         <div class ="text-2xl  text-[#ffb7c5] cursor-pointer  hover:underline duration-1000" id="tol">ABOUT US</div>
