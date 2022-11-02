@@ -1,35 +1,22 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import '../App.css';
 
 function Navbar() {
   return (
-
-    // style the navbar jyoti and shuva accordingly cuz it will be in every page
-    <div className='bg-white p-5 border drop-shadow-lg'>
-    <div className='flex flex-row mx-auto text-xl space-x-10'>
-
-      {/* logo goes here */}
-    <Link to="/">
-     {/* add any tag like img or div inside here  */}
-     LOGO 
-    </Link>
-
-     <div className='flex flex-auto  space-x-10'>
-        <Link to="/">HOME</Link>
-        <Link to="/about">ABOUT US</Link>
-        <Link to="/gallery">Gallery</Link>
-        <Link to="/contact">Contact us</Link>
-        
-        
-
-        </div>
-    
-
-
+    <div class=" bg-bgpic-img bg-no-repeat bg-center bg-cover bg-fixed  h-[650px] ">
+    <div class="flex flex-auto  space-x-10 pt-[30px] pl-[15px]">
+        <div class ="text-2xl  text-[#ffb7c5] cursor-pointer  hover:underline duration-1000" id="tol">HOME</div>
+        <div class ="text-2xl  text-[#ffb7c5] cursor-pointer  hover:underline duration-1000" id="tol">ABOUT US</div>
+        <div class ="text-2xl  text-[#ffb7c5] cursor-pointer  hover:underline duration-1000" id="tol">GALLERY</div>
+        <div class ="text-2xl  text-[#ffb7c5] cursor-pointer  hover:underline duration-1000" id="tol">CONTACT US</div>
+     </div>
+     <div class="flex space-x-16 justify-center items-center h-[600px] ">
+    <hr class="w-40"/>
+    <p class="text-[#ffb7c5] text-6xl" id="isl">SPECTRA ART GALLERY</p>
+    <hr class="w-40"/>
     </div>
+</div>
 
-    </div>
   )
 }
 

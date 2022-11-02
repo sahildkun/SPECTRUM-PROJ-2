@@ -1,0 +1,15 @@
+@font-face {
+    font-family: isl;
+    src: url("./components/fonts/Pacifico-Regular.ttf")
+}
+@font-face {
+    font-family: tol;
+    src: url("./components/fonts/PoorStory-Regular.ttf")
+}
+
+#isl {
+    font-family: isl;
+}
+#tol {
+    font-family: tol;
+}
