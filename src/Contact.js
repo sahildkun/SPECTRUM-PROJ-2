@@ -23,28 +23,28 @@ function Contact() {
         </div>
       </div>
     </div>
-    <div class="shadow-2xl lg:w-1/2 md:w-1/2 bg-[#f8e9ca] flex flex-col md:mx-auto w-full md:py-8 mt-8 md:mt-0 px-6 items-center rounded-lg" id="con" >
-      <p class="text-black text-4xl mb-2 title-font text-center font-semibold border-b-4 border-cyan-600">CONTACT US</p>
+    <div class="shadow-2xl lg:w-1/2 md:w-1/2 bg-[#f8e9ca] bg-opacity-60 backdrop-blur-md flex flex-col md:mx-auto w-full md:py-8 mt-8 md:mt-0 px-6 items-center rounded-lg" id="con" >
+      <p class="text-black text-4xl mb-2 title-font text-center font-semibold border-b-4 border-cyan-600">Contact Us</p>
       <p class="leading-relaxed mb-5 text-xl text-gray-600 text-center">We're open for any suggestion or just to have a chat!</p>
       <div class='px-6'>
       <div class="relative mb-4 text-left">
-        <label for="name" class="leading-7 text-xl text-black">NAME</label>
+        <label for="name" class="leading-7 text-xl text-black">Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your Name" class="w-full bg-white rounded border border-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-lg outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div class="relative mb-4 text-left">
-        <label for="email" class="leading-7 text-xl text-black">EMAIL</label>
+        <label for="email" class="leading-7 text-xl text-black">Email</label>
         <input type="email" id="email" name="email" placeholder="Enter your Email" class="w-full bg-white rounded border border-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-lg outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div class="relative mb-4 text-left">
-        <label for="subject" class="leading-7 text-xl text-black">SUBJECT</label>
+        <label for="subject" class="leading-7 text-xl text-black">Subject</label>
         <input type="text" id="subject" name="subject" placeholder="Enter your Subject" class="w-full bg-white rounded border border-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-lg outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div class="relative mb-4 text-left">
-        <label for="message" class="leading-7 text-xl text-black">MESSAGE</label>
+        <label for="message" class="leading-7 text-xl text-black">Message</label>
         <textarea id="message" name="message" placeholder="Enter your Message" class="w-full bg-white rounded border border-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 h-32 text-lg outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
       </div>
       <button class="text-white bg-[#f0622a] border-0 py-2 px-6 focus:outline-none hover:bg-[#fc9d45] rounded text-lg">Send Message</button>
-      <p class="text-sm text-gray-700 mt-3 text-left font-sans">By submitting this form you agree to our terms and conditions and our privacy policy which explains how we may collect, use and disclose your personal information including to third parties.</p>
+      <p class="text-sm text-gray-900 mt-3 text-left font-sans">By submitting this form you agree to our terms and conditions and our privacy policy which explains how we may collect, use and disclose your personal information including to third parties.</p>
     </div>
     </div>
   </div></div> 
