@@ -9,10 +9,13 @@
 }
 @font-face {
     font-family: con;
-    src: url("./components/fonts/Baskervville-Italic.ttf")
+    src: url("./components/fonts/KaushanScript-Regular.otf")
+
+}
+@font-face {
+    font-family: tac;
+    src: url("./components/fonts/Unna-Regular.ttf")
     
-
-
 }
 
 #isl {
@@ -24,6 +27,10 @@
 }
 #con {
     font-family: con;
+    
+}
+#tac {
+    font-family: tac;
     
 }
 .bg-bgpic-img{
