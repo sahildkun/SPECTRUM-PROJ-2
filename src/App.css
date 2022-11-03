@@ -5,6 +5,14 @@
 @font-face {
     font-family: tol;
     src: url("./components/fonts/AbrilFatface-Regular.otf")
+
+}
+@font-face {
+    font-family: con;
+    src: url("./components/fonts/PlayfairDisplay-Regular.otf")
+    
+
+
 }
 
 #isl {
@@ -14,6 +22,13 @@
 #tol {
     font-family: tol;
 }
+#con {
+    font-family: con;
+    
+}
 .bg-bgpic-img{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url('https://www.wearegoldcoast.com.au/wp-content/uploads/2021/05/Dust-Temple22-1.jpg');
+}
+.bg-bgpic-img2{
+    background-image: url("https://wallpapercave.com/wp/wp2643428.jpg")
 }
