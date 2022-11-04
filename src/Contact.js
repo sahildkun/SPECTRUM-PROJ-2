@@ -23,7 +23,7 @@ function Contact() {
         </div>
       </div>
     </div>
-    <div class="shadow-2xl lg:w-1/2 md:w-1/2 bg-[#f8e9ca] bg-opacity-60 backdrop-blur-md flex flex-col md:mx-auto w-full md:py-8 mt-8 md:mt-0 px-6 items-center rounded-lg" id="con" >
+    <div class="shadow-2xl lg:w-1/2 md:w-1/2 bg-[#dadeff] bg-opacity-60 backdrop-blur-md flex flex-col md:mx-auto w-full md:py-8 mt-8 md:mt-0 px-6 items-center rounded-lg" id="con" >
       <p class="text-black text-4xl mb-2 title-font text-center font-medium border-b-4 border-cyan-600">Contact Us</p>
       <p class="leading-relaxed mb-5 text-xl text-gray-600 text-center" id='tac'>We're open for any suggestion or just to have a chat!</p>
       <div class='px-6' id='tac'>
