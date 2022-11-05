@@ -19,10 +19,10 @@ function Navbar() {
           </div>
           {/* menu */}
          <div class="hidden items-center md:flex flex-auto space-x-12">
-         <Link to="/"><div class ="text-2xl ml-5 text-black hover:text-[#34d1c4] cursor-pointer  hover:underline duration-1000" id="tol">HOME</div></Link>
-         <Link to="/about"><div class ="text-2xl text-black hover:text-[#34d1c4] cursor-pointer  hover:underline duration-1000" id="tol">ABOUT US</div></Link>
-         <Link to="/gallery"><div class ="text-2xl text-black hover:text-[#34d1c4] cursor-pointer  hover:underline duration-1000" id="tol">GALLERY</div></Link>
-         <Link to="/contact"><div class ="text-2xl text-black hover:text-[#34d1c4] cursor-pointer  hover:underline duration-1000" id="tol">CONTACT US</div></Link>
+         <Link to="/"><div class ="text-2xl ml-5 text-white hover:text-[#34d1c4] cursor-pointer  hover:underline duration-1000" id="tol">HOME</div></Link>
+         <Link to="/about"><div class ="text-2xl text-white hover:text-[#34d1c4] cursor-pointer  hover:underline duration-1000" id="tol">ABOUT US</div></Link>
+         <Link to="/gallery"><div class ="text-2xl text-white hover:text-[#34d1c4] cursor-pointer  hover:underline duration-1000" id="tol">GALLERY</div></Link>
+         <Link to="/contact"><div class ="text-2xl text-white hover:text-[#34d1c4] cursor-pointer  hover:underline duration-1000" id="tol">CONTACT US</div></Link>
            
          </div>
 
