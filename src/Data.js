@@ -144,7 +144,7 @@ export const gallery =  [
         id:16,
         image: "https://live.staticflickr.com/5527/11447244196_8439e57525.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "The candid pose and emotion remind us that people are capable of more than we give them credit for.",
         category: "Sketch",
         artist: "Alex Jay"
     },
@@ -153,16 +153,16 @@ export const gallery =  [
         id:17,
         image: "https://i.pinimg.com/originals/16/d4/dc/16d4dcfb88f6291c7949100dc75335ec.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "The colors, lines, and shapes I use seek to emulate how otherworldly they seem in today's modern society.",
         category: "Digital",
-        artist: "eren yeager"
+        artist: "Oliver Nixon"
     },
     {
 
         id:18,
         image: "https://t4.ftcdn.net/jpg/02/09/22/37/360_F_209223706_O8ZlI9qbvZeemjfk35fNN96PlHQUDPkS.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "The modern artist is working with space and time, and expressing his feelings rather than illustrating",
         category: "Digital",
         artist: "Alex Jay"
     },
@@ -171,125 +171,125 @@ export const gallery =  [
         id:19,
         image: "https://wallpapers.com/images/file/your-name-anime-digital-art-179tb5mna7wol4k6-179tb5mna7wol4k6.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "Much of modern art is devoted to lowering the threshold of what is terrible. By getting us used to what, formerly, we could not bear to see or hear, because it was too shocking, painful, or embarrassing, art changes morals.",
         category: "Digital",
-        artist: "eren yeager"
+        artist: "Gary Brooke"
     },
     {
 
         id:21,
         image: "https://images.saatchiart.com/saatchi/1782593/art/8402715/7467034-HGMUDYUC-6.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "Much of modern art is devoted to lowering the threshold of what is terrible. By getting us used to what, formerly, we could not bear to see or hear, because it was too shocking, painful, or embarrassing, art changes morals.",
         category: "Acrylic",
-        artist: "eren yeager"
+        artist: "Daniel Logan"
     },
     {
 
         id:22,
         image: "https://images.saatchiart.com/saatchi/1340813/art/7484169/6553121-EEGCGRND-7.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "The colors, lines, and shapes I use seek to emulate how otherworldly they seem in today's modern society.",
         category: "Modern",
-        artist: "eren yeager"
+        artist: "Jason Sterling"
     },
     {
 
         id:23,
         image: "https://cdn11.bigcommerce.com/s-x49po/images/stencil/1280x1280/products/303/5861/Modern130__45818__63914.1506573857.jpg?c=2" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "The modern artist is working with space and time, and expressing his feelings rather than illustrating",
         category: "Modern",
-        artist: "eren yeager"
+        artist: "Austin Wallace"
     },
     {
 
         id:24,
         image: "https://indianartideas.in/articleimages/1634197208Modern%20Paintings.png" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "The colors, lines, and shapes I use seek to emulate how otherworldly they seem in today's modern society.",
         category: "Modern",
-        artist: "eren yeager"
+        artist: "Harvey Jordan"
     },
     {
 
         id:25,
         image: "https://images.jdmagicbox.com/rep/b2b/modern-art-paintings/modern-art-paintings-3.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "The modern artist is working with space and time, and expressing his feelings rather than illustrating",
         category: "Modern",
-        artist: "eren yeager"
+        artist: "Chase Pearl"
     },
     {
 
         id:26,
         image: "https://images.squarespace-cdn.com/content/v1/506a029784aeea7e77f0b20c/1620055123222-9E33ZVT5NMJ0LUQ4G2HH/Large+abstract+wall+art+naples+fl+artist+Timothy+Parker.jpg?format=2500w" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "Much of modern art is devoted to lowering the threshold of what is terrible. By getting us used to what, formerly, we could not bear to see or hear, because it was too shocking, painful, or embarrassing, art changes morals.",
         category: "Modern",
-        artist: "eren yeager"
+        artist: "Harvey Jordan"
     },
     {
 
         id:27,
         image: "https://img.freepik.com/premium-vector/original-sketch-hand-drawing-rome-italy-famous-cityscape-travel-card-vector-illustration_88791-717.jpg?w=2000" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "Treasures the local, the small-scale, the eccentric, the ordinary: whatever is made out of caring.",
         category: "Sketch",
-        artist: "eren yeager"
+        artist: "Chase Pearl"
     },
     {
 
         id:28,
         image: "https://beautifuldawndesigns.net/wp-content/uploads/2021/03/watercolor-animal-paintings-16.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "In sharp contrasts to traditional art, modern art does not hide the fact that it is something made and produced: on the contrary, it underscores the fact.",
         category: "Watercolour",
-        artist: "eren yeager"
+        artist: "Maxwell Clare"
     },
     {
 
         id:29,
         image: "https://i.pinimg.com/originals/af/b2/73/afb27383cb83070f6a72267c1ac1f145.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "Much of modern art is devoted to lowering the threshold of what is terrible. By getting us used to what, formerly, we could not bear to see or hear, because it was too shocking, painful, or embarrassing, art changes morals.",
         category: "Watercolour",
-        artist: "eren yeager"
+        artist: "Carter Davis"
     },
     {
 
         id:30,
         image: "https://i.pinimg.com/originals/5e/13/2f/5e132f1d3188a8f856e2017dade17b59.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "In sharp contrasts to traditional art, modern art does not hide the fact that it is something made and produced: on the contrary, it underscores the fact.",
         category: "Watercolour",
-        artist: "eren yeager"
+        artist: "Carter Davis"
     },
     {
 
         id:31,
         image: "https://s32625.pcdn.co/wp-content/uploads/2021/02/Close-to-Home-by-Thomas-W-Schaller_WO-758x1024.jpg.optimal.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "In sharp contrasts to traditional art, modern art does not hide the fact that it is something made and produced: on the contrary, it underscores the fact.",
         category: "Watercolour",
-        artist: "eren yeager"
+        artist: "Maxwell Clare"
     },
     {
 
         id:32,
         image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/eiffel-tower-paris-watercolor-mata.jpg" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "Much of modern art is devoted to lowering the threshold of what is terrible. By getting us used to what, formerly, we could not bear to see or hear, because it was too shocking, painful, or embarrassing, art changes morals.",
         category: "Watercolour",
-        artist: "eren yeager"
+        artist: "Maxwell Clare"
     },
     {
 
         id:33,
         image: "https://img.freepik.com/premium-vector/dome-st-paul-s-cathedral-london-sketch-beige-background_168440-318.jpg?w=2000" ,
         
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, tempore.",
+        description: "Treasures the local, the small-scale, the eccentric, the ordinary: whatever is made out of caring.",
         category: "Sketch",
-        artist: "eren yeager"
+        artist: "Carter Davis"
     },
 ]

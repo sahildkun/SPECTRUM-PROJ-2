@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css';
 function Hero() {
   return (
-    <div class="bg-[#f6e4bc]  mx-0 my-auto max-w-full ">
+    <div class="bg-[#b9b4f7]  mx-0 my-auto max-w-full ">
 
         <div class="bg-bgpic-img bg-no-repeat bg-center bg-cover   h-[650px] ">
              <div class="flex space-x-16 justify-center items-center h-[600px] ">
@@ -24,7 +24,7 @@ function Hero() {
             </div>
             <br></br><br></br><br></br>
 
-            <div class="border-[4px] border-[#b5892c] rounded-xl shadow-2xl shadow-slate-800 pb-[13px] pt-[35px]  ml-[200px] mr-[200px] ">
+            <div class="bg-[#cac7f3] border-[4px] border-[#b5892c] rounded-xl shadow-2xl shadow-slate-800 pb-[13px] pt-[35px]  ml-[200px] mr-[200px] ">
                 <div class="flex justify-start items-center pb-32">
                     <hr class="w-[250px] bg-[#b5892c] h-1"/>
                     <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/eiffel-tower-paris-watercolor-mata.jpg " class="h-[500px] outline-double outline-8 outline-[#b5892c] hover:opacity-60 transition delay-100" alt="Painting"/>
