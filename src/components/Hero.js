@@ -54,8 +54,8 @@ function Hero() {
                     Beatae, vero. Deserunt id ve</p>
                 </div> 
         </div>
-        <br></br><br></br><br></br>
-
+        <br></br><br></br><br></br><br></br><br></br><br></br>
+        
     </div> 
         
         
