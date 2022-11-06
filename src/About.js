@@ -124,6 +124,26 @@ function About() {
              </ul>
     </div> 
     </div>
+    <div class="flex justify-around" >
+        <div class="h-1/6 w-2/6 p-3">
+        <div >
+        <img src=" https://images.unsplash.com/photo-1569084024058-1632922a4e1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFydCUyMGdhbGxlcnl8ZW58MHx8MHx8&w=1000&q=80" class="shadow-2xl shadow-slate-800" alt=""/>
+        </div>
+        </div>
+    <div class="flex-col justify-around items max-h-5 w-2/6 p-3">
+        <div class="p-4 ">
+            <img src="https://static.wixstatic.com/media/05f89e_484abf3bee7a4bb99c78e98340af798d~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/05f89e_484abf3bee7a4bb99c78e98340af798d~mv2.jpg" class="shadow-2xl shadow-slate-800" alt=""/>
+        </div>
+        <div class="p-4">
+            <img src="https://c1.wallpaperflare.com/preview/865/42/563/gallery-photos-tretyakov-moscow.jpg" class="shadow-2xl shadow-slate-800" alt=""/>
+        </div>
+    </div>
+    <div >
+        <div class="h-full w-full p-3">
+        <img src="https://images.pexels.com/photos/2372978/pexels-photo-2372978.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="shadow-2xl shadow-slate-800" alt=""/>
+        </div>
+    </div>
+    </div>
 
 </div> 
 
