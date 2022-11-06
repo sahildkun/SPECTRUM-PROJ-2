@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import Slider from './Slider.js'
+
 function Hero() {
   return (
     <div class="bg-[#f6e4bc]  mx-0 my-auto max-w-full ">
