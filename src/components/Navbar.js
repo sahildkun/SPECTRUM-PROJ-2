@@ -7,7 +7,7 @@ function Navbar() {
     
     <div className='bg-transparent fixed backdrop-blur-lg w-full'>
     {/* NAVBAR */}
-    <nav class="relative container mx-auto p-5">
+    <nav class="relative container mx-auto p-2">
        {/* FLEX CONTAINER */}
          <div class="flex items-center justify-between">
             {/* logo */}
