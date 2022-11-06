@@ -13,7 +13,7 @@ function Navbar() {
             {/* logo */}
           <div className='py-0.5 w-28 mx-auto lg:mx-5'>
            <Link to='/'>
-           <img src="logo2.png" alt="logo-img"/>
+           <img src="logo.png" alt="logo-img"/>
            </Link>
                
           </div>
