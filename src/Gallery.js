@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { gallery } from './Data'
-
+import CancelIcon from '@mui/icons-material/Cancel';
+import './Sahil.css'
 import Navbar2 from './Navbar2';
 
 function Gallery() {
@@ -21,6 +22,7 @@ function Gallery() {
     })
 
     setArt(updateList);
+     
    }
   return (
     <>
@@ -35,7 +37,7 @@ function Gallery() {
 
       <div className='flex flex-row justify-center space-x-8 mb-10'>
         <p class="text-[#525252] text-xl py-3 font-serif font-light">CATAGORIES :</p>
-        <button className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Watercolour')}>WATERCOLOUR</button>
+        <button id='ran' className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Watercolour')}>WATERCOLOUR</button>
         <button className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Acrylic')}>ACRYLIC</button>
         <button className='border-2 p-3 bg-black text-white rounded-3xl'onClick={()=> filterItem('Dark')}>DARK</button>
         <button className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Sketch')}>SKETCH</button>
@@ -47,13 +49,13 @@ function Gallery() {
       </div>
 
         
-      <div className='grid grid-cols-4 gap-4 mx-9'>
+      <div className='grid grid-cols-4 gap-4 mx-9 pb-44'>
       {
         art.map((elem)=>{
 
           return(  
             <>
-            <div className='flex flex-col gap-x-10'>
+            <div className='flex flex-col gap-x-10 '>
             <button onClick={()=>{ changeContent([elem])}}>
             <img src={elem.image} alt="" className='h-96 w-full rounded-lg border-[#606061]' />
             </button>
@@ -73,14 +75,17 @@ function Gallery() {
       
       <div onClick={changeContent}   className='fixed top-0 flex items-center justify-center p-10 left-0 right-0 bottom-0 bg-opacity-30 bg-black z-10 backdrop-blur-sm '>
       <div className='bg-white p-10 rounded-lg max-w-2xl z-50 relative'>
-        <button onClick={changeContent} className="bg-yellow-500 h-3 w-5 pb-7">x</button>
+        <div className=''>
+          <div className='flex flex-auto justify-end'>
+        <button onClick={changeContent} className="pb-10"><CancelIcon style={{ color: "red" }}/></button>
+        </div>
           {
             modal.map((pop) => {
 
               return(
                 <>
-              <h2>{pop.id}</h2>
-              <h2>{pop.artist}</h2>
+              <img src={pop.image} alt="" className='pb-10 w-full h-96' />
+              <h2 className='font-bold'>ARTIST :  {pop.artist}</h2>
               <h2>{pop.description}</h2>
               </>
               )
@@ -89,7 +94,7 @@ function Gallery() {
 
         </div>
 
-
+        </div>
         </div>}
 
     </div>
