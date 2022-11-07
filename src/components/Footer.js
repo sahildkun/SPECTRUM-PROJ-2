@@ -107,7 +107,7 @@ function Footer() {
       </div>
     </div>
   </div>
-  <div class="bg-slate-600">
+  <div class="bg-gradient-to-r from-[#7472f3] via-[#bbbff7] to-[#7472f3]">
     <div class="container mx-auto py-2 px-5 flex flex-wrap flex-col sm:flex-row">
       <p class="text-black text-md text-center sm:text-left py-1">© 2022 SpectraArtGallery</p>
       <span class="inline-flex sm:ml-auto sm:mt-0 justify-center sm:justify-start">
