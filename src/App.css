@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: tol;
-    src: url("./components/fonts/AbrilFatface-Regular.otf")
+    src: url("./components/fonts/Woodman-RegularRounded.otf")
 
 }
 @font-face {
@@ -35,7 +35,16 @@
 }
 .bg-bgpic-img{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url('https://www.wearegoldcoast.com.au/wp-content/uploads/2021/05/Dust-Temple22-1.jpg');
+    background-attachment: fixed;
+}
+.bg-bgpic-img0{
+    background: url('https://images5.alphacoders.com/116/1166049.jpg')  
 }
 .bg-bgpic-img2{
     background-image: url("https://wallpaperaccess.com/full/402810.jpg")
 }
+.bg-bgpic-img3{
+    background: url('https://images5.alphacoders.com/116/1166049.jpg') ;
+    background-attachment: fixed; 
+}
+
