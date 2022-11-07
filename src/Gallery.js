@@ -28,23 +28,23 @@ function Gallery() {
     <>
     <Navbar2/>
     {/* intro */}
-    <div class='bg-[#b9b4f7]'>
+    <div class='bg-gradient-to-r from-[#7472f3] via-[#bbbff7] to-[#7472f3] '>
       <div class="flex justify-center items-center space-x-12 py-24">
           <hr class="w-32 bg-[#383838] h-0.5"/>
           <p class="text-[#383838] text-5xl py-6 font-serif font-light">GALLERY</p>
-          <hr class="w-32  bg-[#383838] h-0.5"/>
+          <hr class="w-32 bg-[#383838] h-0.5"/>
       </div>
 
       <div className='flex flex-row justify-center space-x-8 mb-10'>
         <p class="text-[#525252] text-xl py-3 font-serif font-light">CATAGORIES :</p>
         <button id='ran' className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Watercolour')}>WATERCOLOUR</button>
-        <button className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Acrylic')}>ACRYLIC</button>
-        <button className='border-2 p-3 bg-black text-white rounded-3xl'onClick={()=> filterItem('Dark')}>DARK</button>
-        <button className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Sketch')}>SKETCH</button>
-        <button className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Digital')}>DIGITAL</button>
-        <button className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Modern')}>MODERN</button>
-        <button className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Abstract')}>ABSTRACT</button>
-        <button className='border-2 py-3 px-5 bg-black text-white rounded-3xl'onClick={()=> setArt(gallery)}>ALL</button>
+        <button id='ran'className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Acrylic')}>ACRYLIC</button>
+        <button id='ran' className='border-2 p-3 bg-black text-white rounded-3xl'onClick={()=> filterItem('Dark')}>DARK</button>
+        <button id='ran' className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Sketch')}>SKETCH</button>
+        <button id='ran' className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Digital')}>DIGITAL</button>
+        <button id='ran' className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Modern')}>MODERN</button>
+        <button id='ran' className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Abstract')}>ABSTRACT</button>
+        <button id='ran' className='border-2 py-3 px-5 bg-black text-white rounded-3xl'onClick={()=> setArt(gallery)}>ALL</button>
         
       </div>
 
