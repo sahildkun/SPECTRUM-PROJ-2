@@ -17,7 +17,13 @@
     src: url("./components/fonts/Unna-Regular.ttf")
     
 }
-
+@font-face {
+    font-family: nic;
+    src: url("./components/fonts/GTSuperTextBook.ttf")
+}
+#nic {
+    font-family: nic;
+}
 #isl {
     font-family: isl;
     

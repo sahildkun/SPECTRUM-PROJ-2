@@ -20,7 +20,7 @@ function Hero() {
                 <hr class="w-32  bg-[#383737] h-0.5"/>
             </div>
             <div class="flex justify-center ">
-                <p class="w-[700px] text-center text-lg font-light" id='tol'>Presenting contemporary art, historical books and photographs, charts, and scientific visualizations, our exhibition considers the powerful role of vision and the visual in exploring celestial realms.</p>
+                <p class="w-[700px] text-center text-lg font-light" id='nic'>Presenting contemporary art, historical books and photographs, charts, and scientific visualizations, our exhibition considers the powerful role of vision and the visual in exploring celestial realms.</p>
             </div>
             <br></br><br></br><br></br>
 
