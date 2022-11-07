@@ -15,7 +15,7 @@ function About() {
     <hr class="w-40 "/>
     <p class="text-white text-6xl font-serif">ABOUT US</p>
     <hr class="w-40"/>
-    <div>ghgj</div>
+    
 </div>
 <div class="min-h-max bg-transparent z-10 pt-32" data-parallax="scroll" data-image-src="background.png">
     <div class="flex justify-center text-[#b5892c]  italic text-3xl">About our house</div>
