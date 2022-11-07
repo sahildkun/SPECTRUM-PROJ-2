@@ -17,7 +17,7 @@ function About() {
     <hr class="w-40"/>
     
 </div>
-<div class="min-h-max bg-transparent z-10 pt-32" data-parallax="scroll" data-image-src="background.png" id='tac'>
+<div class="min-h-max bg-transparent z-10 pt-32" data-parallax="scroll" data-image-src="background.png" id='nic'>
     <div class="flex justify-center text-[#6c2080]  italic text-3xl">ABOUT OUR HOUSE</div>
     <div class="flex justify-center items-center space-x-12">
         <hr class="w-32 bg-[#383838] h-0.5"/>
@@ -25,12 +25,12 @@ function About() {
         <hr class="w-32  bg-[#383838] h-0.5"/>
     </div>
     <div class="flex justify-center pb-16">
-        <p class="w-[700px] text-center text-xl">" With your continued support and art patronage we hope to make available handpicked talent from across the country exclusively for you.
+        <p class="w-[700px] text-center text-xl" id='nic'>" With your continued support and art patronage we hope to make available handpicked talent from across the country exclusively for you.
 
 With a fresh rebranded look, our gallery's vision is to encourage young Indian artists as well as to ensure that you as a collector get the best of Asian Art to enjoy in your personal spaces."</p>
     </div>
 </div>
-<div class="px-14 py-16 flex space-x-32" id='tac'>
+<div class="px-14 py-16 flex space-x-32" id='nic'>
     <div class="w-[45%]"> Spectra Art was born with a vision to enrich artists by showcasing their artworks both at the local and international levels, to promote and exhibit talented artists from all over India. With the intention of making ‘Art Affordable for Everybody’ and with the introduction of the new generation into the family business, the gallery chose to brand itself.
     </div>
     <div>
@@ -78,10 +78,10 @@ With a fresh rebranded look, our gallery's vision is to encourage young Indian a
         <hr class="w-32  bg-[#525252] h-0.5"/>
     </div>
     <div class="flex justify-center pb-16">
-        <p class="w-[700px] text-center text-lg font-light" id='tac'>Enjoy the diverse collection of original paintings and sculptures.</p>
+        <p class="w-[700px] text-center text-lg font-light" id='nic'>Enjoy the diverse collection of original paintings and sculptures.</p>
     </div>
 
-    <div class="flex justify-around pb-24" id='tac'>
+    <div class="flex justify-around pb-24" id='nic'>
     <div class="flex-col justify-around items-stretch">
         <ul>
              <li type="square">Expressionism</li>

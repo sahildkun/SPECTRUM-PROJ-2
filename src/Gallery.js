@@ -35,8 +35,8 @@ function Gallery() {
           <hr class="w-32 bg-[#383838] h-0.5"/>
       </div>
 
-      <div className='flex flex-row justify-center space-x-8 mb-10'>
-        <p class="text-[#525252] text-xl py-3 font-serif font-light">CATAGORIES :</p>
+      <div className='flex flex-row justify-center space-x-8 mb-10' id='nic'>
+        <p class="text-[#525252] text-xl py-3 font-light"id='nic'>CATAGORIES :</p>
         <button id='ran' className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Watercolour')}>WATERCOLOUR</button>
         <button id='ran'className='border-2 p-3 bg-black text-white rounded-3xl' onClick={()=> filterItem('Acrylic')}>ACRYLIC</button>
         <button id='ran' className='border-2 p-3 bg-black text-white rounded-3xl'onClick={()=> filterItem('Dark')}>DARK</button>
