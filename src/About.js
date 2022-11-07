@@ -70,7 +70,7 @@ function About() {
     </div>
 </div>
 <div class="flex justify-around">
-        <img src="https://lobopopart.com.br/wp-content/uploads/2020/07/Evolu%C3%A7%C3%A3o-humana.jpg" class="items-center outline-double outline-8 outline-[#b5892c] shadow-2xl shadow-slate-800" width="750px" alt=""/>
+        <img src="https://rukminim1.flixcart.com/image/850/1000/kzvlua80/t-shirt/p/d/e/xl-majnu-bhai-women-mad-over-print-original-imagbsj94pnuypfe.jpeg?q=90" class="items-center outline-double outline-8 outline-[#b5892c] shadow-2xl shadow-slate-800" width="750px" alt=""/>
     </div>
     <div class="flex justify-center text-[#b5892c]  italic text-3xl pt-14">Artworks archive</div>
     <div class="flex justify-center items-center space-x-12">
