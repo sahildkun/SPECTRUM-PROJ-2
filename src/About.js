@@ -9,32 +9,29 @@ function About() {
     <Navbar2/>
     <div>
       {/* animesh and ajit  */}
-      <div class="bg-[#f6e4bc]  mx-0 my-auto max-w-full ">
+      <div class="bg-gradient-to-r from-[#6967f8] via-[#b5baf8] to-[#6967f8]  mx-0 my-auto max-w-full ">
 
-<div class="bg-bgpic-img3 bg-no-repeat bg-center bg-cover   h-[650px] flex space-x-16 justify-center items-center">
+<div class="bg-bgpic-img3 bg-no-repeat bg-center bg-cover h-[650px] flex space-x-16 justify-center items-center" id='isl'>
     <hr class="w-40 "/>
-    <p class="text-white text-6xl font-serif">ABOUT US</p>
+    <p class="text-white text-6xl">ABOUT US</p>
     <hr class="w-40"/>
     
 </div>
-<div class="min-h-max bg-transparent z-10 pt-32" data-parallax="scroll" data-image-src="background.png">
-    <div class="flex justify-center text-[#b5892c]  italic text-3xl">About our house</div>
+<div class="min-h-max bg-transparent z-10 pt-32" data-parallax="scroll" data-image-src="background.png" id='nic'>
+    <div class="flex justify-center text-[#6c2080]  italic text-3xl">ABOUT OUR HOUSE</div>
     <div class="flex justify-center items-center space-x-12">
-        <hr class="w-32 bg-[#525252] h-0.5"/>
-        <p class="text-[#525252] text-5xl py-6 font-serif font-light">THE MUSEUM</p>
-        <hr class="w-32  bg-[#525252] h-0.5"/>
+        <hr class="w-32 bg-[#383838] h-0.5"/>
+        <p class="text-[#383838] text-5xl py-6 font-serif font-light">THE GALLERY</p>
+        <hr class="w-32  bg-[#383838] h-0.5"/>
     </div>
     <div class="flex justify-center pb-16">
-        <p class="w-[700px] text-center text-lg font-light">Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Beatae, vero. Deserunt id veritatis voluptates laboriosam.elit. Beatae, vero. Deserunt i
-            Beatae, vero. Deserunt id ve</p>
+        <p class="w-[700px] text-center text-xl" id='nic'>" With your continued support and art patronage we hope to make available handpicked talent from across the country exclusively for you.
+
+With a fresh rebranded look, our gallery's vision is to encourage young Indian artists as well as to ensure that you as a collector get the best of Asian Art to enjoy in your personal spaces."</p>
     </div>
 </div>
-<div class="px-14 py-16 flex space-x-32">
-    <div class="w-[45%] text-base font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        se eiusmod temps esmu incididun in ut labs en ore et sa dolore si magna aliqua. Ut enim ad minima
-        veniam, inant quis nostrud e exerci de tation ullam co laboris nisi ut sen aliquip ex ea commodo insade
-        consequat. Duis aute irure do se dolor in reprehenderit inest
+<div class="px-14 py-16 flex space-x-32" id='nic'>
+    <div class="w-[45%]"> Spectra Art was born with a vision to enrich artists by showcasing their artworks both at the local and international levels, to promote and exhibit talented artists from all over India. With the intention of making ‘Art Affordable for Everybody’ and with the introduction of the new generation into the family business, the gallery chose to brand itself.
     </div>
     <div>
         <div class="flex space-x-3 px-5">
@@ -45,11 +42,13 @@ function About() {
                 </svg>
             </a>
             <a href="/"
-                class="text-[20px] font-serif font-light hover:text-[#b5892c]  duration-200 text-[#525252]">OPENING HOURS</a>
+                class="text-[20px] font-serif hover:text-[#7e28a0]  duration-200 text-[#242323]">OPENING HOURS</a>
         </div>
         <ul class="p-4 ml-5">
-            <li class="font-light">Tue ‒ Thu: 09am ‒ 07pm</li>
-            <li class="font-light">Tue ‒ Thu: 09am ‒ 07pm</li>
+            <li class="font-light">TUE-THU: 10AM-7PM</li>
+            <li class="font-light">FRI: 1PM-8PM</li>
+            <li class="font-light">SAT-SUN: 10AM-9PM</li>
+            <li class="font-light">MON: CLOSED</li>
         </ul>
     </div>
     <div>
@@ -61,63 +60,53 @@ function About() {
                 </svg>
             </a>
             <a href="/Contact"
-                class="text-[20px] font-serif font-light hover:text-[#b5892c]  duration-200 text-[#525252]">ADMISSIONS</a>
+                class="text-[20px] font-serif font-light hover:text-[#78248d]  duration-200 text-[#242323]">ADMISSIONS</a>
         </div>
         <ul class="p-4 ml-5">
-            <li class="font-light">Aduts: $25</li>
+            <li class="font-light">Adults: Rs.25</li>
             <li class="font-light">Children and Students: free</li>
         </ul>
     </div>
 </div>
-<div class="flex justify-around">
-        <img src="https://rukminim1.flixcart.com/image/850/1000/kzvlua80/t-shirt/p/d/e/xl-majnu-bhai-women-mad-over-print-original-imagbsj94pnuypfe.jpeg?q=90" class="items-center outline-double outline-8 outline-[#b5892c] shadow-2xl shadow-slate-800" width="750px" alt=""/>
+<div class="flex justify-around ">
+        <img src="https://rukminim1.flixcart.com/image/850/1000/kzvlua80/t-shirt/p/d/e/xl-majnu-bhai-women-mad-over-print-original-imagbsj94pnuypfe.jpeg?q=90" class="items-center outline-double outline-8 outline-[#7e0d8d] shadow-2xl shadow-slate-800" width="750px" alt=""/>
     </div>
-    <div class="flex justify-center text-[#b5892c]  italic text-3xl pt-14">Artworks archive</div>
+    <div class="flex justify-center text-[#7e0d8d]  italic text-3xl pt-14" id='tac'>Artworks archive</div>
     <div class="flex justify-center items-center space-x-12">
         <hr class="w-32 bg-[#525252] h-0.5"/>
-        <p class="text-[#525252] text-5xl py-6 font-serif font-light">THE COLLECTION</p>
+        <p class="text-[#2b2a2a] text-5xl py-6 font-serif font-light">THE COLLECTION</p>
         <hr class="w-32  bg-[#525252] h-0.5"/>
     </div>
     <div class="flex justify-center pb-16">
-        <p class="w-[700px] text-center text-lg font-light">Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Beatae, vero. Deserunt id veritatis voluptates laboriosam.elit. Beatae, vero. Deserunt i
-            Beatae, vero. Deserunt id ve</p>
+        <p class="w-[700px] text-center text-lg font-light" id='nic'>Enjoy the diverse collection of original paintings and sculptures.</p>
     </div>
 
-    <div class="flex justify-around pb-24" >
+    <div class="flex justify-around pb-24" id='nic'>
     <div class="flex-col justify-around items-stretch">
         <ul>
              <li type="square">Expressionism</li>
              <li type="square">Gutai group</li>
-             <li type="square">Les Plasticiens</li>
-             <li type="square">Situationist national</li>
-             <li type="square">Neo expressionism</li>
-             <li type="square">New European Pinting</li>
-             <li type="square">Remodernism</li>
              <li type="square">Sound Art</li>
              <li type="square">Enviromental Art</li>
+             <li type="square">Funk Art</li>
+             <li type="square">Transgressive Art</li>
         </ul>
     </div> 
     <div class="flex-col justify-around items-stretch">
         <ul>
              <li type="square">Neo-conceptual Art</li>
              <li type="square">Figuration Libre</li>
-             <li type="square">Funk Art</li>
-             <li type="square">Transgressive Art</li>
              <li type="square">Digital Art</li>
              <li type="square">Video Installation</li>
              <li type="square">Postminimalism</li>
-             <li type="square">Lowbrow Art movement</li>
              <li type="square">Performance Art</li>
         </ul>     
     </div> 
     <div class="flex-col justify-around items-stretch">
         <ul>
-             <li type="square">New York School</li>
              <li type="square">Post-painterly Abstraction</li>
-             <li type="square">Saint Soleil School</li>
              <li type="square">Institutional Critique</li>
-             <li type="square">Young British Artists</li>
+             <li type="square">Young Artists</li>
              <li type="square">Electronic Art</li>
              <li type="square">Warli painting Revival</li>
              <li type="square">Postmodern Art</li>
