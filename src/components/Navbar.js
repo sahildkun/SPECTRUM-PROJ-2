@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import { Link } from 'react-router-dom'
+import { Link ,NavLink} from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -19,7 +19,7 @@ function Navbar() {
           </div>
           {/* menu */}
          <div class="hidden items-center md:flex flex-auto space-x-12">
-         <Link to="/"><div class ="text-xl ml-5 hover:text-[#fdc751] text-[#f5f8f8] cursor-pointer  hover:underline duration-1000" id="tol">HOME</div></Link>
+         <NavLink to="/"><div class ="text-xl ml-5 hover:text-[#fdc751] text-[#f5f8f8] cursor-pointer  hover:underline duration-1000" id="tol">HOME</div></NavLink>
          <Link to="/about"><div class ="text-xl hover:text-[#fdc751]  text-[#f5f8f8] cursor-pointer  hover:underline duration-1000" id="tol">ABOUT US</div></Link>
          <Link to="/gallery"><div class ="text-xl hover:text-[#fdc751]  text-[#f5f8f8] cursor-pointer  hover:underline duration-1000" id="tol">GALLERY</div></Link>
          <Link to="/contact"><div class ="text-xl hover:text-[#fdc751]  text-[#f5f8f8] cursor-pointer  hover:underline duration-1000" id="tol">CONTACT US</div></Link>

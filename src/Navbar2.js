@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import { Link } from 'react-router-dom'
+import { Link,NavLink } from 'react-router-dom'
 
 function Navbar2() {
   return (
@@ -20,10 +20,10 @@ function Navbar2() {
             </div>
             {/* menu */}
           <div class="hidden items-center md:flex flex-auto space-x-12">
-          <Link to="/"><div class ="text-xl first-letter:ml-5 text-white hover:text-[#3af0f0] cursor-pointer  hover:underline duration-1000" id="tol">HOME</div></Link>
-          <Link to="/about"><div class ="text-xl text-white hover:text-[#3af0f0] cursor-pointer  hover:underline duration-1000" id="tol">ABOUT US</div></Link>
-          <Link to="/gallery"><div class ="text-xl text-white hover:text-[#3af0f0] cursor-pointer  hover:underline duration-1000" id="tol">GALLERY</div></Link>
-          <Link to="/contact"><div class ="text-xl text-white hover:text-[#3af0f0] cursor-pointer  hover:underline duration-1000" id="tol">CONTACT US</div></Link>
+          <NavLink to="/" className={({ isActive }) => (isActive ? 'text-xl first-letter:ml-5 text-white hover:text-[#3af0f0] cursor-pointer  hover:underline duration-1000' : 'text-black')}><div id='tol' >HOME</div></NavLink>
+          <NavLink to="/about" className={({ isActive }) => (isActive ? 'text-xl first-letter:ml-5  text-[#3af0f0] cursor-pointer  hover:underline duration-1000' : 'text-xl first-letter:ml-5 text-white')}><div id='tol'>ABOUT US</div></NavLink>
+          <NavLink to="/gallery" className={({ isActive }) => (isActive ? 'text-xl first-letter:ml-5  text-[#3af0f0] cursor-pointer  hover:underline duration-1000' : 'text-xl first-letter:ml-5 text-white')}><div id='tol'>GALLERY</div></NavLink>
+          <NavLink to="/contact" className={({ isActive }) => (isActive ? 'text-xl first-letter:ml-5  text-[#3af0f0] cursor-pointer  hover:underline duration-1000' : 'text-xl first-letter:ml-5 text-white')}><div id='tol'>CONTACT US</div></NavLink>
             
           </div>
 
@@ -36,3 +36,5 @@ function Navbar2() {
 }
 
 export default Navbar2
+
+//text-xl first-letter:ml-5 text-white hover:text-[#3af0f0] cursor-pointer  hover:underline duration-1000" id="tol
