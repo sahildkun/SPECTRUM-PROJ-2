@@ -57,7 +57,7 @@ function Gallery() {
             <>
             <div className='flex flex-col gap-x-10 '>
             <button onClick={()=>{ changeContent([elem])}}>
-            <img src={elem.image} alt="" className='h-96 w-full rounded-lg border-[#606061]' />
+            <img src={elem.image} alt="" className='h-96 w-full rounded-lg border-[#606061] transform transition-all hover:scale-105' />
             </button>
             
             {/* <p>{elem.artist}</p>
@@ -84,7 +84,7 @@ function Gallery() {
 
               return(
                 <>
-              <img src={pop.image} alt="" className='pb-10 w-full h-96' />
+              <img src={pop.image} alt="" className='pb-10 w-full h-96 rounded-md ' />
               <h2 className='font-bold'>ARTIST :  {pop.artist}</h2>
               <h2>{pop.description}</h2>
               </>
